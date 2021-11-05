@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Miso-Bold";
+    src:url("../fonts/MISO-BOL.eot") format("eot"),
+        url("../fonts/MISO-BOL.woff") format("woff"),
+        url("../fonts/MISO-BOL.ttf") format("truetype"),
+        url("../fonts/MISO-BOL.svg#Miso-Bold") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+body {
+    background: #fdde7e;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.coffe_card {
+    padding-bottom: 36px;
+    width: 360px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 6px #00000044;
+    transition: ease .35s;
+}
+.gold_item {
+    width: 380px;
+    height: 580px;
+}
+.coffe_card-price,.coffe_card-title {
+    font-family: "Miso-Bold";
+    font-size: 54px;
+}
+.coffe_card-price {
+    color: #02995b;
+}
+.coffe_card-desc {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+}
